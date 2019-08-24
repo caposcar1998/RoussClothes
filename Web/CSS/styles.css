@@ -1,0 +1,169 @@
+body{
+    
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-width:0;
+    margin-height:0;
+    background-color: Fuchsia;
+    color: #0000FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    
+}
+
+
+
+#title-header {
+    
+    
+    LEFT: auto;
+    font-size: 50px;
+    margin-left: 50%;
+}
+
+#slogan{
+    
+  
+    LEFT: auto;
+    font-size: 50px;
+    margin-left: 38%;
+}
+
+.list-menu{
+    color: #0000FF;
+    font-size: 29px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: pink;
+}
+
+.cuerpo{
+    
+    height: auto;
+}
+
+.foto-mover{
+    width: 50%;
+    height: 00%;
+}
+
+
+#conocer {
+   height: 250%;
+}
+
+.slick-slider img{
+    width: 100%;
+    height: 450px;
+}
+.slick-slider {
+    height: 40%;
+}
+
+.logo{
+    width: 10%;
+    margin-left: 0;
+}
+
+#facebook{
+    margin-left: 60%;
+    display: none;
+}
+
+#instagram{
+    margin-left: 60%;
+    display: none;
+}
+
+#whattsapp{
+    margin-left: 60%;
+    display: none;
+}
+
+#tittle2{
+    margin-left: 30%;
+}
+
+#leyenda{
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 800px) {
+    
+    #title-header{
+        margin-left: 30%;
+        
+    }
+    
+    #slogan{
+        margin-left: 0;
+        
+    }
+    li{
+        float: none;
+        
+    }
+    
+    #tittle2{
+        margin-left: 0%;
+    }
+    
+    #leyenda{
+        margin-left: 18%;
+        
+    }
+    
+    #facebook{
+        margin-left: 0;
+        display: none;
+    }
+    
+    #instagram {
+    margin-left: 43%;
+    /* position: relative; */
+    display: none;
+    margin-top: -10%;
+}
+    
+    #whattsapp {
+    margin-left: 85%;
+    display: none;
+    margin-top: -10%;
+}
+    
+    li {
+  float: left;
+}
+    
+    .slick-slider img{
+    width: 100%;
+    height: 100%;
+}
+    
+    
+}

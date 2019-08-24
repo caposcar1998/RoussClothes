@@ -1,0 +1,55 @@
+body{
+    
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    background-color: Fuchsia;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    margin-left: 20%;
+    color: #0000FF;
+}
+
+#comentario{
+    height: 250px;
+    width: 50%;
+}
+
+#nombre{
+    width: 50%;
+}
+
+#mail{
+    width: 50%;
+}
+
+#enviar{
+    width: 30%;
+    height: 25%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+   #comentario{
+    
+    width: 100%;
+} 
+    #nombre{
+        width: 100%;
+    }
+    
+    #enviar{
+        margin-left: 40%;
+    }
+    #mail{
+        width: 100%;
+    }
+    
+    body{
+        font-size: 100%;
+        margin-left: 0;
+    }
+}

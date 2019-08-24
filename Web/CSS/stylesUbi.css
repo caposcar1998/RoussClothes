@@ -1,0 +1,106 @@
+body{
+    
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    background-color: Fuchsia;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #0000FF;
+}
+
+
+
+.header{
+    background-color: Fuchsia;
+}
+
+#titulo-ubicacion {
+    
+   
+    LEFT: auto;
+    font-size: 50px;
+    margin-left: 40%;
+    
+}
+
+#map {
+   width: 45%;
+   height: 500px;
+   background-color: grey;
+    overflow: hidden;
+    float: left;
+  
+ }
+
+img{
+    width: 45%;
+    height: 500px;
+    float: left;
+    padding-right: 4%;
+}
+
+
+
+h4{
+    font-size: 188%;
+    text-align: justify;
+}
+
+.borrar{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+    #map{
+        float: none;
+        width: 80%;
+        padding-right: 4%;
+        padding-left: 5%;
+        margin-left: 5%;
+    }
+    
+    img {
+    width: 91%;
+    height: 500px;
+    float: left;
+    padding-right: 4%;
+    padding-left: 5%;
+        padding-bottom: 5%
+}
+    
+    #titulo-ubicacion {
+    font-family: 'Srisakdi', cursive;
+    LEFT: auto;
+    font-size: 50px;
+    margin-left: 26%;
+}
+    
+    .foto-lugar{
+        font-size: 50%;
+    }
+    .borrar{
+    display:contents;
+        font-size: 90%;
+    padding-left: 5%;
+        padding-right: 4%;
+}
+    
+    .borrarM{
+    display:none;
+}
+    
+    #textoM{
+        padding-left: 5%;
+        padding-right: 4%;
+        text-align: justify;
+    }
+
+    
+    
+}
